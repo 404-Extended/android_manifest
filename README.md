@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/ImmanuelRajTheContributor/404-Extended-Manifest/main/project404-darkbanner_edited.jpeg" />
 </p>
 
-A project that shouldn't have existed by the laws of the internet and yet it does; we present you Project 404, just like the Schrödinger's cat!
+A project that shouldn't have existed by the laws of the internet and yet it does; we present you Project 404 Extended , just like the Schrödinger's cat!
 
  Credits
  -------
