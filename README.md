@@ -12,7 +12,7 @@ A project that shouldn't have existed by the laws of the internet and yet it doe
   * [**Potato Project**](https://github.com/PotatoProject)
   * [**AOSPA**](https://github.com/AOSPA)  
 
- # Project 404
+ # 404 Extended
 Error 404: Bugs not found!
 
  ### Requirements
@@ -27,7 +27,7 @@ Error 404: Bugs not found!
 
  	```bash
          mkdir p-404 && cd p-404
-         repo init -u https://github.com/P-404/platform_manifest -b rippa
+         repo init -u https://github.com/404-Extended/android_manifest -b rippa
          repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
  	```
 
@@ -35,13 +35,5 @@ Error 404: Bugs not found!
 
  ### Reporting compilation issues
  - For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildingHelp)
-
- ### Adding Support
- - For adding your device to the list of supported devices, please fill the maintainers form [**Form**](https://github.com/P-404/stuff) with your device tree and previous experience in building roms.
-
- ### Follow  us for more
- * [**Telegram Group**](https://t.me/project_404)
- * [**Telegram Channel**](https://t.me/project404channel)
- * [**Twitter**](https://twitter.com/Project404x)
 
  ### Happy Building :)

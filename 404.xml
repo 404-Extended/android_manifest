@@ -9,6 +9,10 @@
           fetch="https://github.com/P-404/"
           revision="rippa" />
 
+  <remote name="fork"
+	fetch="https://github.com/404-Extended/"
+	revision="rippa" />
+
   <remote name="404-gitlab"
           fetch="https://gitlab.com/project-404"
           revision="rippa" />
@@ -89,7 +93,7 @@
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="android_frameworks_av" remote="404" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="404" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="fork" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="404" />
   <remove-project name="platform/frameworks/native" />
@@ -105,17 +109,17 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="404" />
 
   <!-- Manifest -->
-  <project path="manifest" name="android_manifest" remote="404" />
+  <project path="manifest" name="android_manifest" remote="fork" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/404Launcher" name="android_packages_apps_404Launcher" remote="404" />
+  <project path="packages/apps/404Launcher" name="android_packages_apps_404Launcher" remote="fork" />
   <project path="packages/apps/Covers" name="android_packages_apps_Covers" remote="404" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="404" />
   <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="404" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="404" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fork" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="404" />
   <remove-project name="platform/packages/apps/ThemePicker" />
@@ -168,7 +172,7 @@
   <project path="system/vold" name="android_system_vold" remote="404" />
 
   <!-- Vendor -->
-  <project path="vendor/404" name="android_vendor_404" remote="404" />
+  <project path="vendor/404" name="android_vendor_404" remote="fork" />
   <project path="vendor/google/gms" name="proprietary_vendor_google_gms" remote="404-gitlab" />
   <project path="vendor/google/pixel" name="proprietary_vendor_google_pixel" remote="404-gitlab" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="404" />
